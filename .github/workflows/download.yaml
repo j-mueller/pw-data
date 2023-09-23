@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+          with:
+            token: ${{ secrets.DATA_PAT }}
 
       - uses: haskell/actions/setup@v2
         id: setup
