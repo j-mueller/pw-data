@@ -27,7 +27,7 @@ jobs:
       - name: download
         run: |
           cabal update
-          cabal run pw-scraper -- -p data
+          cabal run pw-scraper -- -p data scrape
 
       - name: add commit
         uses: EndBug/add-and-commit@v9
