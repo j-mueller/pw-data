@@ -1,7 +1,7 @@
-name: Download latest data
+name: Load all JSON files into a SQLite database
 on:
   schedule:
-  - cron: 53 0/3 * * *
+  - cron: 21 4 * * *
   workflow_dispatch:
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
       - name: download
         run: |
           cabal update
-          cabal run pw-scraper -- -p data
+          cabal run pw-scraper -- -p data export --sqlite-file outages.sqlite
 
       - name: add commit
         uses: EndBug/add-and-commit@v9
