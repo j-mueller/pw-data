@@ -8,6 +8,11 @@ jobs:
   download:
     runs-on: ubuntu-latest
     steps:
+      - name: install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sqlite3
+
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.DATA_PAT }}
@@ -24,10 +29,13 @@ jobs:
           path: ${{ steps.setup.outputs.cabal-store }}
           key: cabal-${{ hashFiles('cabal.project') }}-${{ hashFiles('**/*.cabal') }}
 
-      - name: download
+      - name: Create SQLite database
         run: |
           cabal update
           cabal run pw-scraper -- -p data export --sqlite-file outages.sqlite
+
+      - name: Update summary files
+        run: ./summarise-data.sh
 
       - name: add commit
         uses: EndBug/add-and-commit@v9
