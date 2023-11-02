@@ -1,0 +1,3 @@
+city        PLZ    number_of_outages  avg_duration_h  
+----------  -----  -----------------  ----------------
+Ellerstadt  67158  1                  3.03333333333333
