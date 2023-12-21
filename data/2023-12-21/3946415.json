@@ -5,8 +5,8 @@
     "comments": null,
     "containerShape": null,
     "coordinates": "51.9057314,10.4830539",
-    "dateEnd": "12/21/2023 12:30:00",
-    "dateStart": "12/21/2023 08:30:00",
+    "dateEnd": "12/21/2023 15:00:00",
+    "dateStart": "12/21/2023 13:00:00",
     "definition": null,
     "district": null,
     "geoType": 1,
@@ -16,7 +16,7 @@
     "internal": 0,
     "isFixed": false,
     "isOutageInArea": false,
-    "lastUpdate": "12/21/2023 09:26:16",
+    "lastUpdate": "12/21/2023 11:18:17",
     "liveInfo": "",
     "operatorId": 259,
     "operatorName": "Harz Energie Netz GmbH",
@@ -26,7 +26,7 @@
     "radius": 250,
     "social": null,
     "socialText": null,
-    "street": "Siedlerstraße, 38642 Goslar, Deutschland",
+    "street": "Im Osterkamp, 38690 Goslar, Deutschland",
     "subsection": null,
     "type": 2
 }
