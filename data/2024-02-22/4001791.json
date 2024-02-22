@@ -5,7 +5,7 @@
     "comments": null,
     "containerShape": null,
     "coordinates": "48.06155766663645,10.635815180618431",
-    "dateEnd": "02/22/2024 19:03:00",
+    "dateEnd": "02/22/2024 19:57:00",
     "dateStart": "02/22/2024 13:03:00",
     "definition": null,
     "district": null,
@@ -16,8 +16,8 @@
     "internal": 0,
     "isFixed": false,
     "isOutageInArea": false,
-    "lastUpdate": "02/22/2024 16:57:01",
-    "liveInfo": "Stromausfall auf Grund einer geplanten Stromabschaltung",
+    "lastUpdate": "02/22/2024 19:57:00",
+    "liveInfo": "Ungeplanter Stromausfall aus noch unbekanntem Grund",
     "operatorId": 583,
     "operatorName": "LEW Verteilnetz GmbH",
     "origin": 5,
@@ -28,5 +28,5 @@
     "socialText": null,
     "street": null,
     "subsection": null,
-    "type": 2
+    "type": 1
 }
