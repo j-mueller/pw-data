@@ -16,7 +16,7 @@
     "internal": 0,
     "isFixed": false,
     "isOutageInArea": false,
-    "lastUpdate": "05/02/2024 07:06:19",
+    "lastUpdate": "05/02/2024 10:04:50",
     "liveInfo": "",
     "operatorId": 355,
     "operatorName": "Bonn-Netz GmbH",
@@ -26,7 +26,7 @@
     "radius": 1000,
     "social": null,
     "socialText": null,
-    "street": "",
+    "street": "Meckenheimer Allee, 53115 Bonn, Deutschland",
     "subsection": null,
     "type": 2
 }
