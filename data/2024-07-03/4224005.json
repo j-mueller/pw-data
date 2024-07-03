@@ -6,7 +6,7 @@
     "containerShape": null,
     "coordinates": "51.729126,11.1207775",
     "dateEnd": "07/03/2024 18:00:00",
-    "dateStart": "07/03/2024 08:37:32",
+    "dateStart": "07/03/2024 08:37:00",
     "definition": null,
     "district": null,
     "geoType": 1,
@@ -16,7 +16,7 @@
     "internal": 0,
     "isFixed": false,
     "isOutageInArea": false,
-    "lastUpdate": "07/03/2024 08:37:32",
+    "lastUpdate": "07/03/2024 09:26:29",
     "liveInfo": "",
     "operatorId": 41,
     "operatorName": "Stadtwerke Quedlinburg GmbH",
@@ -26,7 +26,7 @@
     "radius": 500,
     "social": null,
     "socialText": null,
-    "street": "Grünestraße",
+    "street": "Grünstraße, 06485 Quedlinburg, Deutschland",
     "subsection": null,
     "type": 1
 }
