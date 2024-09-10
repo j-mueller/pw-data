@@ -16,8 +16,8 @@
     "internal": 0,
     "isFixed": false,
     "isOutageInArea": false,
-    "lastUpdate": "09/10/2024 07:29:00",
-    "liveInfo": "",
+    "lastUpdate": "09/10/2024 14:41:37",
+    "liveInfo": "geplante Versorgungsunterbrechung",
     "operatorId": 1837,
     "operatorName": "TraveNetz GmbH",
     "origin": 2,
@@ -26,7 +26,7 @@
     "radius": 500,
     "social": null,
     "socialText": null,
-    "street": "Am Hochkamp 2A, 23611 Bad Schwartau, Deutschland",
+    "street": "Am Hochkamp 2-19, 23611 Bad Schwartau, Deutschland",
     "subsection": null,
     "type": 2
 }
