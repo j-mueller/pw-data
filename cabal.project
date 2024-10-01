@@ -7,6 +7,6 @@ with-compiler: ghc-9.4.8
 source-repository-package
   type: git
   location: https://github.com/j-mueller/pw-scraper.git
-  tag: dadac21966987dc6f5d0b2d00215a070b0b0147b
+  tag: be2ab1329549b6bb3f00066c2c43c6812a2984cc
   subdir:
     src/scraper
