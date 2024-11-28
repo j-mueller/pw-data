@@ -1,5 +1,5 @@
 city        PLZ    number_of_outages  avg_duration_h  
 ----------  -----  -----------------  ----------------
-Ellerstadt  67158  24                 1.14861111111111
+Ellerstadt  67158  29                 1.19080459770115
 Gönnheim    67161  1                  3.08333333333333
 Wachenheim  67591  1                  2.05            
